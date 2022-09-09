@@ -17,5 +17,5 @@ test('output#4', () => {
 })
 
 test('output#5', () => {
-  expect(testFn(-1, -8, 0)).toStrictEqual({ min: -8, mid: -1, max: 0 })
+  expect(testFn(-1, -8, 1)).toStrictEqual({ min: -8, mid: -1, max: 1 })
 })
